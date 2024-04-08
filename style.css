@@ -114,3 +114,42 @@ main p {
   color: white;
   justify-content: center;
 }
+
+@media (max-width: 1200px) {
+  .produtos {
+    flex-direction: column;
+    height: 80rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .header {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 560px) {
+  main h1 {
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1;
+  }
+
+  .nav ul {
+    gap: 2rem;
+  }
+
+  main h3 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  main p {
+    font-size: 0.8rem;
+    margin-top: 1rem;
+  }
+}
